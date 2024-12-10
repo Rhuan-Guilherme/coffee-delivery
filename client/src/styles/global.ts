@@ -7,10 +7,15 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-   body, input, textarea, button{
+  body{
+    background-color: ${(props) => props.theme.colors.background};
+  }
+
+   input, textarea, button{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 `;
