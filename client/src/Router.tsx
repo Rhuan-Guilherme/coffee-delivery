@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { DefaultLayout } from './layouts/defaultLayout';
 import { RegisterLayout } from './layouts/registerLayoyt';
+import { Register } from './pages/Register';
 
 export function Router() {
   return (
@@ -11,7 +12,7 @@ export function Router() {
       </Route>
 
       <Route path="/user" element={<RegisterLayout />}>
-        <Route path="" element={<h1>Register page</h1>} />
+        <Route path="" element={<Register />} />
       </Route>
     </Routes>
   );
