@@ -1,3 +1,5 @@
 export const lightTheme = {
-  white: '#FFF',
+  title: 'light',
+
+  teste: '#FFF',
 };
